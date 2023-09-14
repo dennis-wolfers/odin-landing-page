@@ -1,0 +1,11 @@
+:root {
+    --blue-black: #1f2937;
+    --off-white: #f9faf8;
+    --dull-white: #e5e7eb;
+    --button-blue: #3882f6;
+
+}
+
+h1 {
+    color: var(--button-blue);
+}
