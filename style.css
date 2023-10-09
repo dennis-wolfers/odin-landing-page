@@ -3,7 +3,6 @@
     --off-white: #f9faf8;
     --dull-white: #e5e7eb;
     --button-blue: #3882f6;
-
 }
 
 body {
@@ -22,7 +21,12 @@ body {
     justify-content: center;
 }
 
+.header .logo {
+    font-weight: 700;
+}
+
 .header ul {
+    max-width: 900px;
     width: 90vw;
     padding: 0;
     margin: 0;
@@ -43,25 +47,54 @@ body {
 .hero {
     background-color: var(--blue-black);
     display: flex;
+    justify-content: center;
+}
+
+.hero-components-wrapper {
+    width: 900px;
+    padding: 30px 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
 }
 
 .hero-block,
 .hero-image {
-    max-width: 400px;
+    max-width: 444px;
 }
 
 h1 {
     color: var(--off-white);
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero p {
     color: var(--dull-white);
+    margin: 0;
+}
+
+.hero-block button {
+    margin-top: 9px;
+    background-color: var(--button-blue);
+    color: var(--off-white);
+    padding: 6px 18px;
+    border-radius: 6px;
+    border: none;
+    align-self: flex-start;
 }
 
 .hero-image {
     background-color: var(--dull-white);
+    width: 400px;
 }
 
 .content {
