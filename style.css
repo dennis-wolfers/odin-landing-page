@@ -137,7 +137,29 @@ h2 {
 }
 
 .quote {
+    background-color: var(--dull-white);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 700px;
+    padding: 48px;
+}
+
+blockquote {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: oblique;
+    color: var(--blue-black);
+}
+
+.attribution {
+    text-align: right;
+    color: var(--blue-black);
+    font-weight: 700;
 }
 
 .footer {
