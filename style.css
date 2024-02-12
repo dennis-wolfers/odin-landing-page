@@ -54,6 +54,7 @@ body {
     width: 900px;
     padding: 30px 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
 }
@@ -113,6 +114,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 48px;
     margin-bottom: 48px;
 }
@@ -161,6 +163,45 @@ blockquote {
     color: var(--blue-black);
     font-weight: 700;
 }
+
+.action {
+    display: flex;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: var(--button-blue);
+    margin: 60px auto;
+    padding: 40px 90px;
+}
+
+.action-content {
+    color: var(--off-white);
+    margin-right: 60px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.action-container button {
+    min-width: 90px;
+    background-color: var(--button-blue);
+    color: var(--off-white);
+    padding: 6px 18px;
+    border-radius: 6px;
+    border: 1pt solid var(--off-white);
+}
+
 
 .footer {
     height: 64px;
